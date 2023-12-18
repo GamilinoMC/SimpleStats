@@ -1,0 +1,12 @@
+name: StatsPlugin-ZebraMC
+description: Stats Plugin for ZebraMC made by GamilinoMC
+author: GamilinoMC
+api:
+  - 5.0.0
+main: ZebraMC\GamilinoMC\Stats
+version: 1.0.0
+
+permissions:
+  stats.cmd:
+    default: true
+    description: Stats Command
