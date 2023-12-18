@@ -1,5 +1,5 @@
-name: StatsPlugin-ZebraMC
-description: Stats Plugin for ZebraMC made by GamilinoMC
+name: StatsPlugin
+description: Stats Plugin made by GamilinoMC
 author: GamilinoMC
 api:
   - 5.0.0
