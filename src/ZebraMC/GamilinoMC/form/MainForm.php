@@ -27,7 +27,7 @@ class MainForm extends MenuForm
                         "§3Stats",
                         "§7Joins: §e" . StatsAPI::getInstance()->getJoins(strtolower($player->getName())) . "\n\n§7Kills: §e" . StatsAPI::getInstance()->getKills(strtolower($player->getName())) . "\n§7Deaths: §e" . StatsAPI::getInstance()->getDeaths(strtolower($player->getName())),
                         [
-                            new MenuOption("§cSchließen")
+                            new MenuOption("§cClose")
                         ],
                         function (Player $player, int $data): void {
 
@@ -49,7 +49,7 @@ class MainForm extends MenuForm
                                     $nameinput,
                                     "§7Joins: §e" . StatsAPI::getInstance()->getJoins($nameinput) . "\n\n§7Kills: §e" . StatsAPI::getInstance()->getKills($nameinput) . "\n§7Deaths: §e" . StatsAPI::getInstance()->getDeaths($nameinput),
                                     [
-                                        new MenuOption("§cSchließen")
+                                        new MenuOption("§cClose")
                                     ],
                                     function (Player $player, int $data): void {
 
