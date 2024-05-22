@@ -41,7 +41,7 @@ class PlayerListener implements Listener
         $entity = $event->getEntity();
         $damager = $event->getDamager();
 
-        if ($entity && $damager instanceof Player) {
+        if ($entity instanceof Player && $damager instanceof Player) {
             if (($entity->getHealth() - $event->getFinalDamage()) <= 0) {
                 StatsAPI::getInstance()->addKill($damager->getName());
                 StatsAPI::getInstance()->addDeath($entity->getName());
